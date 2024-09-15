@@ -1,0 +1,18 @@
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+int main() {
+    setlocale(LC_ALL, "ru");
+    int number1 = 13;
+    int number2 = 10;
+
+
+    cout << "первое число" << number1 << endl;
+    cout << "второе число" << number2 << endl;
+    cout << "первое + второе" << number1 + number2 << endl;
+    cout << "первое - второе" << number1 - number2 << endl;
+    puts("стоп");
+    getchar("void");
+    return 0;
+} 
